@@ -1,0 +1,32 @@
+print("1.addition")
+  print("2.subtraction")
+  print("3.multiplication")
+  print("4.division")
+print()
+opt= int(input("enter the number between [1,2,3,4]: ")
+no1= float(input("enter the first number: ")
+no2= float(input("enter the second number: ")
+print()
+
+  if opt == 1 
+    add = no1 + no2
+  print(" addition of two numbers is : ", add)
+
+  if opt ==2
+    sub = no1 - no2
+  print(" subtraction of two numbers is : ", sub)
+
+ elif opt == 3
+     multi = no1*no2
+  print(" muliplication of two numbers is: ",multi)
+
+  elif opt == 4
+     if no2=0;
+       print ("Division by zero is not allowed")
+
+  elif opt == 4
+         div= no1/no2
+         print("Division of two numbers is : ", div)
+
+  else:
+    print("entered something wrong XD")
